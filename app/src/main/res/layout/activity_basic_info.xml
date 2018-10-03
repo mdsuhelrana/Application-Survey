@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#152f31"
+    tools:context="com.example.mdsuhelrana.surveyproject.BasicInfoActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic information"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is your gender?"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="17sp"
+            android:onClick="selectgender"
+            android:textColor="#ffffff"
+            android:id="@+id/male_id"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="17sp"
+            android:onClick="selectgender"
+            android:textColor="#ffffff"
+            android:id="@+id/female_id"/>
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" What is your age?"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20>"
+            android:onClick="selectage"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:id="@+id/age1_id"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20-25"
+            android:textSize="17sp"
+            android:onClick="selectage"
+            android:textColor="#ffffff"
+            android:id="@+id/age2_id"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-30"
+            android:onClick="selectage"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:id="@+id/age3_id"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">30"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:onClick="selectage"
+            android:id="@+id/age4_id"/>
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" What is your education level?"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High School"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:onClick="selectedulevel"
+            android:id="@+id/edulevel1_id"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:onClick="selectedulevel"
+            android:id="@+id/edulevel2_id"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:onClick="selectedulevel"
+            android:id="@+id/edulevel3_id"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post graduate"
+            android:textSize="17sp"
+            android:onClick="selectedulevel"
+            android:textColor="#ffffff"
+            android:id="@+id/edulevel4_id"/>
+    </RadioGroup>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button_background"
+        android:onClick="startToQsn"
+        android:text="next"
+        android:id="@+id/basicInfo_start_id"
+        android:layout_gravity="center"/>
+</LinearLayout>
+</ScrollView>

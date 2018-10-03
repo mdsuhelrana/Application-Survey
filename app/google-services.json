@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "180427500292",
+    "firebase_url": "https://surveyproject-58bb7.firebaseio.com",
+    "project_id": "surveyproject-58bb7",
+    "storage_bucket": "surveyproject-58bb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180427500292:android:68ad9c264cf9e3d0",
+        "android_client_info": {
+          "package_name": "com.example.mdsuhelrana.surveyproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180427500292-126q2vsjuvdffui3q8amekps4mimh4b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCabZEi-M0bv5gaehV6MrB8EOJ6U-47VPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

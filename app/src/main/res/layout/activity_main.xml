@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    tools:context="com.example.mdsuhelrana.surveyproject.MainActivity">
+
+ <LinearLayout
+     android:layout_margin="5dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+     android:orientation="vertical">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="30sp"
+         android:gravity="center"
+         android:textColor="#FF4081"
+         android:text="Welcome to survey"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:textColor="#fdfdfd"
+         android:text="Title :An Investigation and Comparison of Usability of tourism and travel mobile apps of Bangladesh."/>
+
+     <TextView
+         android:layout_marginTop="15dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#fdfdfd"
+         android:text="1 =  Strongly disagree"
+         android:textSize="17sp"/>
+
+     <TextView
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#fdfdfd"
+         android:text="2 = Disagree"
+         android:textSize="17sp"/>
+     <TextView
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#fdfdfd"
+         android:text="3 =  Neutral"
+         android:textSize="17sp"/>
+     <TextView
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#fdfdfd"
+         android:text="4 =  Agree"
+         android:textSize="17sp"/>
+     <TextView
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#fdfdfd"
+         android:text="5 =  Strongly Agree"
+         android:textSize="17sp"/>
+
+     <Button
+         android:layout_marginTop="50dp"
+         android:layout_width="130dp"
+         android:layout_height="45dp"
+         android:text="start survey"
+         android:background="@drawable/button_background"
+         android:textColor="#000"
+         android:layout_marginBottom="5dp"
+         android:layout_gravity="center"
+         android:id="@+id/startservey_Id"/>
+ </LinearLayout>
+</ScrollView>
